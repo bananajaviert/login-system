@@ -1,0 +1,49 @@
+.login-form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 30rem;
+    font-weight: 700;
+    border-radius: 5pt;
+    font-size: 1.3rem;
+    .login-txt{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 2rem;
+    }
+    .input-field {
+        display: flex;
+        flex-direction: column;
+
+
+        * {
+            padding: .5rem;
+            font-size: 16px;
+        }
+    }
+    .btn {
+        width: fit-content;
+        align-self: center;
+        margin: 2rem 0 2rem 0;
+    }
+    .register-link {
+        font-size: 1.2rem;
+        font-weight: 500;
+        align-self: center;
+        margin: .5rem;
+        .link {
+            margin-left: .5rem;
+            text-decoration: none;
+            color: steelblue;
+        }
+    }
+}
+
+@media only screen and(max-width: 764px){
+    .login-form {
+        max-width: 90vw;
+        border-radius: 8pt;
+    }  
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// @import './Register.scss';
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font-stack: 1.2rem 'Poppins', sans-serif;
+$gradient: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+body {
+    font: $font-stack;
+    overflow-x: hidden;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: $gradient;
+}
